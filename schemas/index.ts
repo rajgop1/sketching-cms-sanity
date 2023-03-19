@@ -1,3 +1,11 @@
+import artCollection from "./artCollection"
 import faceOption from "./faceOption"
+import frameOption from "./frameOption"
+import order from "./order"
+import orderItem from "./orderItem"
+import paymentResult from "./paymentResult"
+import product from "./product"
+import shippingAddress from "./shippingAddress"
 import sizeOption from "./sizeOption"
-export const schemaTypes = [faceOption, sizeOption]
+import user from "./user"
+export const schemaTypes = [faceOption, sizeOption, frameOption, artCollection, product, orderItem, user, order, shippingAddress, paymentResult]
